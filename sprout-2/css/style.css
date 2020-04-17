@@ -172,6 +172,7 @@ button:hover {
     background-color: #323545;
     color: #ffffff;
     height: 480px;
+    
 }
 
 .foot-section-2 {
@@ -182,17 +183,20 @@ button:hover {
     width: 1200px;
     align-items: center;
     margin: auto;
-    border-top: 2px solid#cacaca;
-    border-bottom: 2px solid#cacaca;
+    border-top: 2px solid#808591;
+    border-bottom: 2px solid#808591;
 }
 
-#hide-text {
+#hide-text, #hide-text-2, #hide-text-3 {
     color: #323545
 }
 
 .footer-logo {
-    padding: 100px 0 30px 215px;
+    padding: 100px 0 30px 0;
     background-color: #323545;
+    width: 1200px;
+    align-items: center;
+    margin: auto;
 }
 
 .stacked-list-2 {
