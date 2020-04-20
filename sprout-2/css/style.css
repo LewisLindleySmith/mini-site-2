@@ -151,6 +151,7 @@ button:hover {
 
 #reverse-items {
     flex-direction: row-reverse;
+    text-align: right;
 }
 
 .container-text {
