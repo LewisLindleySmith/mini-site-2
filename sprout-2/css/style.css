@@ -209,3 +209,7 @@ p {
     line-height: 1.6em;
     font-weight: 400;
 }
+
+#world-text {
+    text-indent: 18px;
+}
