@@ -181,8 +181,8 @@ p {
     align-items: center;
     margin: auto;
     padding: 0 25px;
-    border-top: 2px solid#808591;
-    border-bottom: 2px solid#808591;
+    border-top: 1px solid#808591;
+    border-bottom: 1px solid#808591;
 }
 
 #hide-text, #hide-text-2, #hide-text-3 {
