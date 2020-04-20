@@ -138,7 +138,7 @@ button:hover {
 
 .stacked-list {
     display: block;
-    margin: 0;
+    margin: 8px 0;
 }
 
 .stacked-ul {
@@ -163,6 +163,12 @@ button:hover {
 p {
     line-height: 1.6em;
 }
+
+#phone-icon {
+    text-align: right;
+}
+
+
 
 /*footer*/
 .footer-section {
@@ -211,4 +217,11 @@ p {
 
 #world-text {
     text-indent: 18px;
+}
+
+.test {
+    width: 600px;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
 }
