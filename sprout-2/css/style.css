@@ -47,16 +47,11 @@ span {
 .nav-section {
     display: flex;
     position: relative;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .nav-logo {
     margin:20px 0 0 35px;
-}
-
-.nav-section{
-    display: flex;
-    position: relative;
 }
 
 .navbar-container, ul, li {
@@ -74,7 +69,10 @@ a{
     color: #f4f4f4;
 } 
 
-
+.navbar-container {
+    margin: 23px auto;
+    width: 450px;
+}
 
 .navbar-container li {
     padding: 0 15px;
