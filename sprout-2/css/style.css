@@ -8,19 +8,20 @@ body {
     font-size: 16px;
 }
 
-h1 {
+h1,
+h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 50px;
     font-weight: 700;
     margin: 0;
+}
+
+h1 {
     color: #f4f4f4;
 }
 
 h2 {
-    font-family: 'Montserrat', sans-serif;
     font-size: 42px;
-    font-weight: 700;
-    margin: 0;
 }
 
 span {
@@ -112,6 +113,8 @@ button {
 
 button:hover {
     cursor: pointer;
+    background-color: #da408d;
+    transition: background-color 0.5s;
 }
 
 .login {
