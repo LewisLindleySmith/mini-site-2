@@ -32,7 +32,28 @@ span {
     text-transform: uppercase;
 }
 
-/* nav section */
+/* header */
+
+.nav-section {
+    height: 100px;
+    align-items: center;
+}
+
+.nav-logo {
+    position: absolute;
+    left: 15px;
+    padding: 0 15px;
+}
+
+.navbar-container {
+    justify-content: center;
+}
+
+.login {
+    position: absolute;
+    right: 15px;
+    padding: 0 15px;
+}
 
 /* banner image*/
 .banner-section {
@@ -49,12 +70,8 @@ span {
 .nav-section {
     display: flex;
     position: relative;
-    justify-content: space-between;
+    justify-content: center;
     z-index: 1;
-}
-
-.nav-logo {
-    margin:20px 0 0 35px;
 }
 
 .navbar-container, ul, li {
@@ -64,7 +81,6 @@ span {
     list-style-type: none;
     display: inline-block;
     text-align: left;
-    padding: 0;
 }
 
 a{
@@ -73,8 +89,7 @@ a{
 } 
 
 .navbar-container {
-    margin: 23px auto;
-    width: 450px;
+    width: 400px;
 }
 
 .navbar-container li {
@@ -114,11 +129,8 @@ button {
 button:hover {
     cursor: pointer;
     background-color: #da408d;
-    transition: background-color 0.5s;
-}
-
-.login {
-    margin: 30px 35px 0 0;
+    transition: background-color 0.5s ; 
+    font-size: 17px;
 }
 
 /*banner text*/
