@@ -236,6 +236,7 @@ button:hover {
     display: block;
     line-height: 1.6em;
     font-weight: 400;
+    color: #cacaca
 }
 
 #world-text {
@@ -247,4 +248,8 @@ button:hover {
     display: flex;
     position: relative;
     justify-content: space-between;
+}
+
+.foot-nav-list, a {
+    color: #cacaca;
 }
