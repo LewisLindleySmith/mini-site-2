@@ -22,6 +22,11 @@ h1 {
 
 h2 {
     font-size: 42px;
+    padding-bottom: 16px;
+}
+
+p {
+    margin: 0;
 }
 
 span {
@@ -161,7 +166,7 @@ button:hover {
 
 .stacked-list {
     display: block;
-    margin: 8px 0;
+    margin-bottom: 8px;
 }
 
 .stacked-ul {
