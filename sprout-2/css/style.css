@@ -32,6 +32,10 @@ span {
     text-transform: uppercase;
 }
 
+ul {
+    padding: 0;
+}
+
 /* header */
 
 .nav-section {
@@ -47,6 +51,7 @@ span {
 
 .navbar-container {
     justify-content: center;
+    padding: 0 0 0 100px;
 }
 
 .login {
@@ -160,7 +165,7 @@ button:hover {
 }
 
 .stacked-ul {
-    margin: 0;
+    margin: 0 0;
 }
 
 .bg-color {
