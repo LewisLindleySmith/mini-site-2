@@ -68,7 +68,6 @@ ul {
 
 /* banner image*/
 .banner-section {
-    background-image: url(../images/banner-2.png);
     height: 700px;
     background-position: center;
     background-repeat: no-repeat;
@@ -252,4 +251,12 @@ button:hover {
 
 .foot-nav-list, a {
     color: #cacaca;
+}
+
+.address-contaiter {
+    width: 300px;
+}
+
+.address-indent {
+    list-style-position: inside;
 }
