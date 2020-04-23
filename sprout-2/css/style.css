@@ -47,6 +47,8 @@ ul {
 .nav-section {
     height: 100px;
     align-items: center;
+    background-color:#323545;
+    overflow: hidden;
 }
 
 .nav-logo {
@@ -73,7 +75,7 @@ ul {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    margin: -100px 0 0 0;
+    
     overflow: hidden;
 }
 
@@ -82,6 +84,7 @@ ul {
     display: flex;
     width: 100%;
     height: 700px;
+    
 }
 
 #prevBtn {
@@ -90,7 +93,8 @@ ul {
     z-index: 10;
     left: 5%;
     color: #da408d;
-    font-size: 50px;
+    font-size: 40px;
+    cursor: pointer;
 }
 
 #nextBtn {
@@ -99,10 +103,17 @@ ul {
     z-index: 10;
     right: 5%;
     color: #da408d;
-    font-size: 50px;
+    font-size: 40px;
+    cursor: pointer;
 }
 
 /*nav bar*/
+#stickyNav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
 .nav-section {
     display: flex;
     position: relative;
