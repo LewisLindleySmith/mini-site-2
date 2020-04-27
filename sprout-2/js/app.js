@@ -44,15 +44,22 @@ carouselSlide.addEventListener('transitionend', () => {
 
 //navBar
 
-window.onscroll = function () { myFunction(); }
+
 
 var navbar = document.getElementById('stickyNav');
 var sticky = navbar.offsetTop;
+var banner = document.getElementsByClassName("banner-section");
+var bannerHeight = banner[0].offsetHeight;
+console.log(bannerHeight);
+
 
 function myFunction() {
-    if (window.pageYOffset >= sticky) {
+    if (window.pageYOffset >= bannerHeight) {
         navbar.classList.add("sticky")
     } else {
         navbar.classList.remove("sticky");
     }
+    console.log('scroll', window.pageYOffset, 'stickyTop', sticky);
 }
+
+window.onscroll = function () { myFunction(); }

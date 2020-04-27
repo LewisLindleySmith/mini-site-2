@@ -112,8 +112,12 @@ ul {
     position: fixed;
     top: 0;
     width: 100%;
-    
     z-index: 1;
+}
+
+#stickyNav.sticky {
+    background-color: #323545;
+    transition: background-color 0.5s;
 }
 
 .nav-section {
