@@ -44,8 +44,6 @@ carouselSlide.addEventListener('transitionend', () => {
 
 //navBar
 
-
-
 var navbar = document.getElementById('stickyNav');
 var sticky = navbar.offsetTop;
 var banner = document.getElementsByClassName("banner-section");

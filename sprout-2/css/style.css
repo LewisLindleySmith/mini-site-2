@@ -47,8 +47,7 @@ ul {
 
 .nav-section {
     height: 100px;
-    align-items: center;
-    overflow: hidden;
+    align-items: center;  
     transition: ease 1s;
 }
 
@@ -169,11 +168,6 @@ a {
 	width: 100%;
 }
 
-/*nav sub nav */
-
-
-
-
 /*login button*/
 button {
     background: none;
@@ -203,6 +197,46 @@ button:hover {
     transform: translate(-50%, -50%);
     line-height: 1.5;
     width: 800px;
+}
+
+/* nav dropdown menu */
+.nav-content {
+    position: absolute;
+    overflow: hidden;
+    max-height: 0;
+}
+
+.nav-content a {
+    color: #da408d;
+}
+
+.nav-sub {
+    padding: 5px 0 0 5px;
+    width: 70px;
+    height: 150px; 
+}
+
+.nav-sub ul {
+    padding: 0;
+    margin: 0;
+}
+
+.nav-sub li {
+    padding: 5px 0;
+    text-align: center;
+}
+
+.nav-item:focus ~ .nav-content {
+    max-height: 150px;
+    transition: 0.4s;
+}
+
+.navbar-content ul li .underline-2 {
+	height: 3px;
+	background-color: transparent;
+	width: 0%;
+	transition: width 0.2s, background-color 0.5s;
+	margin: 0 auto;
 }
 
 /*container section*/
