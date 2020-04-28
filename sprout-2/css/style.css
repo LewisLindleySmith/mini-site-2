@@ -246,7 +246,6 @@ button:hover {
     background-color: #323545;
     color: #ffffff;
     height: 480px;
-    
 }
 
 .footer-text-container {
@@ -257,7 +256,7 @@ button:hover {
     width: 1200px;
     align-items: center;
     margin: auto;
-    padding: 0 25px;
+    padding: 30px 25px;
     border-top: 1px solid#808591;
     border-bottom: 1px solid#808591;
 }
