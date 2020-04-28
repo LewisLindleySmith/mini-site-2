@@ -61,3 +61,7 @@ function myFunction() {
 }
 
 window.onscroll = function () { myFunction(); }
+
+document.getElementById("myAnchor").addEventListener("click", function (event) {
+    event.preventDefault()
+});
