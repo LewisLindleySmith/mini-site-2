@@ -118,7 +118,6 @@ ul {
 
 #stickyNav.sticky {
     background-color: #323545;
-    font-size: 18px;
     transition: 1s;
 }
 
@@ -147,9 +146,7 @@ a {
     width: 400px;
 }
 
-.navbar-container li {
-    padding: 0 15px;
-}
+/* nav bar pink underline */
 
 .navbar-container ul li .underline {
 	height: 3px;
@@ -200,43 +197,51 @@ button:hover {
 }
 
 /* nav dropdown menu */
-.nav-content {
-    position: absolute;
-    overflow: hidden;
-    max-height: 0;
-}
-
-.nav-content a {
-    color: #da408d;
-}
-
-.nav-sub {
-    padding: 5px 0 0 5px;
-    width: 70px;
-    height: 150px; 
-}
-
-.nav-sub ul {
-    padding: 0;
+ul {
+    list-style: none;
     margin: 0;
+    padding-left: 0;
 }
 
-.nav-sub li {
-    padding: 5px 0;
-    text-align: center;
+li {
+    color: #fff;
+    display: block;
+    float: left;
+    padding: 1rem;
+    position: relative;
+    text-decoration: none;
+  transition-duration: 0.5s;
+}
+  
+li a {
+  color: #fff;
 }
 
-.nav-item:focus ~ .nav-content {
-    max-height: 150px;
-    transition: 0.4s;
+li:hover {
+    cursor: pointer;
 }
 
-.navbar-content ul li .underline-2 {
-	height: 3px;
-	background-color: transparent;
-	width: 0%;
-	transition: width 0.2s, background-color 0.5s;
-	margin: 0 auto;
+ul li ul {
+    visibility: hidden;
+  opacity: 0;
+  min-width: 5rem;
+    position: absolute;
+  transition: all 0.5s ease;
+  margin-top: 1rem;
+    left: 0;
+  display: none;
+}
+
+ul li:hover > ul,
+ul li ul:hover {
+  visibility: visible;
+  opacity: 1;
+  display: block;
+}
+
+ul li ul li {
+    clear: both;
+  width: 100%;
 }
 
 /*container section*/
