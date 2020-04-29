@@ -141,7 +141,7 @@ ul {
     text-align: left;
 }
 
-a {
+.nav-link, a {
     text-decoration: none;
     color: #f4f4f4;
 } 
@@ -297,7 +297,7 @@ button:hover {
     justify-content: space-between;
 }
 
-.foot-nav-list, a {
+.foot-nav-list a {
     color: #cacaca;
 }
 
