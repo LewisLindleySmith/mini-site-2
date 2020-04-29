@@ -248,6 +248,20 @@ li ul li {
     width: 100%;
 }
 
+/* nav bar drop down pink underline */
+
+.dropdown li .underline-2 {
+    height: 3px;
+    background-color: transparent;
+    width: 0%;
+    transition: width 0.2s, background-color 0.5s;
+}
+
+.dropdown li:hover .underline-2 {
+    background-color: #da408d;
+    width: 60%;
+}
+
 /*container section*/
 .container {
     width: 1200px;
