@@ -126,6 +126,11 @@ ul {
     transition: 1s;
 }
 
+#stickyNav.sticky #dropDownMenu {
+    background-color: #323545;
+    transition: 1s;
+}
+
 .nav-section {
     display: flex;
     position: relative;
