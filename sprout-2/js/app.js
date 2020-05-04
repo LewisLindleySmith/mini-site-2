@@ -46,13 +46,11 @@ carouselSlide.addEventListener('transitionend', () => {
 
 var navbar = document.getElementById('stickyNav');
 var sticky = navbar.offsetTop;
-var banner = document.getElementsByClassName("banner-section");
-var bannerHeight = banner[0].offsetHeight;
-console.log(bannerHeight);
+
 
 
 function myFunction() {
-    if (window.pageYOffset >= bannerHeight) {
+    if (window.pageYOffset >= sticky) {
         navbar.classList.add("sticky")
     } else {
         navbar.classList.remove("sticky");
@@ -62,6 +60,4 @@ function myFunction() {
 
 window.onscroll = function () { myFunction(); }
 
-document.getElementById("myAnchor").addEventListener("click", function (event) {
-    event.preventDefault()
-});
+
