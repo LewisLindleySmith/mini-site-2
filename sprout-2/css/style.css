@@ -182,24 +182,13 @@ li ul li {
 }
 
 .navbar-container ul li.active-link a::after,
-.navbar-container ul li:hover a::after {
+.navbar-container ul li:hover a:hover::after {
     width: 100%;
     visibility: visible;
 }
 
-.navbar-container li ul li a::after {
-    height: 3px;
-    background-color: transparent;
-    width: 0;
-    transition: width 0.2s, background-color 0.5s;
-    visibility: hidden;
-}
 
-.navbar-container li ul li:hover a::after {
-    width: 100%;
-    visibility: visible;
-    background-color: #da408d;
-}
+/* nav bar drop down pink underline */
 
 /* nav bar drop down pink underline */
 
