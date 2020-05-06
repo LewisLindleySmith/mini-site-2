@@ -185,23 +185,33 @@ li ul li {
 .navbar-container ul li:hover a::after {
     width: 100%;
     visibility: visible;
-
 }
 
+.navbar-container li ul li a::after {
+    height: 3px;
+    background-color: transparent;
+    width: 0;
+}
+
+.navbar-container li ul li:hover a::after {
+    background-color: #da408d;
+    width: 100%;
+    transition: width 0.2s, background-color 0.5s
+}
 
 /* nav bar drop down pink underline */
 
-.dropdown li .underline-2 {
+/* .dropdown li .underline-2 {
     height: 3px;
     background-color: transparent;
     width: 0%;
     transition: width 0.2s, background-color 0.5s;
-}
+} */
 
-.dropdown li:hover .underline-2 {
+/* .dropdown li:hover .underline-2 {
     background-color: #da408d;
     width: 60%;
-}
+} */
 
 /*login button*/
 button {
