@@ -191,12 +191,14 @@ li ul li {
     height: 3px;
     background-color: transparent;
     width: 0;
+    transition: width 0.2s, background-color 0.5s;
+    visibility: hidden;
 }
 
 .navbar-container li ul li:hover a::after {
-    background-color: #da408d;
     width: 100%;
-    transition: width 0.2s, background-color 0.5s
+    visibility: visible;
+    background-color: #da408d;
 }
 
 /* nav bar drop down pink underline */
