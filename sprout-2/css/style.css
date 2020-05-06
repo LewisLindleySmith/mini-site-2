@@ -117,25 +117,6 @@ ul {
     width: 400px;
 }
 
-/* nav bar pink underline */
-
-.navbar-container ul li .underline {
-	height: 3px;
-	background-color: transparent;
-	width: 0%;
-	transition: width 0.2s, background-color 0.5s;
-	margin: 0 auto;
-}
-.navbar-container ul li.active-link .underline {
-	width: 100%;
-	background-color:#da408d;
-}
-
-.navbar-container ul li:hover .underline {
-	background-color: #da408d;
-	width: 100%;
-}
-
 /* nav dropdown menu */
 
 .dropdown li {
@@ -179,6 +160,34 @@ li ul li {
     clear: both;
     width: 100%;
 }
+
+/* nav bar pink underline */
+.navbar-container a {
+    position: relative;
+    padding: 4px 0;
+}
+
+.navbar-container ul li a::after {
+    content: "";
+    height: 3px;
+	background-color: #da408d;
+	width: 0;
+	transition: width 0.2s, background-color 0.5s, visibility 0.2s;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    visibility: hidden;
+}
+
+.navbar-container ul li.active-link a::after,
+.navbar-container ul li:hover a::after {
+    width: 100%;
+    visibility: visible;
+
+}
+
 
 /* nav bar drop down pink underline */
 
