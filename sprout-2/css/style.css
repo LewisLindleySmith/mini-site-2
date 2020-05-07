@@ -121,6 +121,7 @@ ul {
 
 .dropdown li {
     padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .sub-nav, li {
@@ -128,7 +129,7 @@ ul {
     display: block;  
     position: relative;
     text-decoration: none;
-  transition-duration: 0.5s;
+    transition-duration: 0.5s;
 }
 
 li a {
@@ -188,22 +189,6 @@ li ul li {
 }
 
 
-/* nav bar drop down pink underline */
-
-/* nav bar drop down pink underline */
-
-/* .dropdown li .underline-2 {
-    height: 3px;
-    background-color: transparent;
-    width: 0%;
-    transition: width 0.2s, background-color 0.5s;
-} */
-
-/* .dropdown li:hover .underline-2 {
-    background-color: #da408d;
-    width: 60%;
-} */
-
 /*login button*/
 button {
     background: none;
@@ -220,8 +205,9 @@ button {
 button:hover {
     cursor: pointer;
     background-color: #da408d;
-    transition: background-color 0.5s ; 
+    transition: background-color 1s, color 1s ; 
     font-size: 17px;
+    color: black;
 }
 
 /* banner image*/
@@ -260,7 +246,7 @@ button:hover {
     z-index: 10;
     left: 5%;
     color: #da408d;
-    font-size: 40px;
+    font-size: 30px;
     cursor: pointer;
 }
 
@@ -270,7 +256,7 @@ button:hover {
     z-index: 10;
     right: 5%;
     color: #da408d;
-    font-size: 40px;
+    font-size: 30px;
     cursor: pointer;
 }
 
